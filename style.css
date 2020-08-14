@@ -1,1 +1,379 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+
+
+            /* fonts */
+@font-face {
+  font-family: neodisplay-black;
+  src: url('fonts/NoeDisplay-Black.woff');
+}
+@font-face {
+  font-family: sfpro-light;
+  src: url('fonts/SF-Pro-Display-Light.otf');
+}
+@font-face {
+  font-family: sfk-bold;
+  src: url("fonts/sf_kingston_bold-webfont.woff2");
+}
+@font-face {
+  font-family: sfpro-thin;
+  src: url("fonts/SF-Pro-Display-Light.otf");
+}
+
+            /* body */
+.container {
+}
+
+.section-header {
+  font-size: 32px;
+  font-family: neodisplay-black;
+  padding: 0 0 10px
+}
+
+
+
+            /* Header */
+
+.header {
+  color: #fff;
+  height: 560px;
+  background: #000;
+  padding: 25px 15px 25px 25px;
+}
+
+h1 {
+  font-family: sfk-bold;
+  font-size: 70px;
+  line-height: 1.3em;
+  padding-bottom: 30px;
+}
+
+.header-h3 {
+  font-family: sfpro-thin;
+  font-size: 12px;
+  margin: 5px 0px 20px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.09375em; 
+}
+.spn {
+  font-weight: bold;
+}
+
+
+
+            /* Projects */
+.projects {
+  height: auto;
+  margin: 25px 25px 0;
+}
+#projects_p {
+  font-size: 14px;
+  padding: 10px 0 10px;
+  font-family: sfpro-light;
+  letter-spacing: 0.05em;
+}
+.projects_innerdiv {
+  margin-bottom: 25px;
+  border-radius: 7px; 
+  height: 165px;
+  width: 100%;
+  background: #E1E1E1;
+}
+.projects_img {
+  display: block;
+ margin: 0 auto;
+  height: 100%;
+}
+
+            /* Resume */
+.resume {
+  margin: 50px 25px 25px;
+}
+.resume2 {
+  overflow: hidden;
+}
+.resume-h3 {
+  font-family: neodisplay-black;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+#skill {
+  margin: 15px 0 0;
+}
+.ul1, .ul3{
+  width: 95px;
+  list-style: none;
+  line-height: 24px; 
+  font-size: 12px;
+  float: left;
+  margin-right: 55px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ul2, .ul4 {
+  line-height: 24px;
+  float: left;
+  font-size: 12px;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+            /* stats */
+.stats {
+  margin: 50px 25px 25px;
+  display: block;
+}
+
+.stats-div {
+  height: 40px;
+  margin: 10px 0px;
+  background: #000;
+  border-radius: 7px; 
+}
+.stats-span{
+  color: #7D7D7D ;
+}
+.stats-p1 {
+  font-size: 11px;
+}
+.stats-p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  padding: 13px 0px 14px 10px;
+  color: white;
+}
+
+            /* Contact */
+.contact {
+  margin: 50px 25px 25px;
+}
+
+.contact-div {
+  padding: 10px 45px 3px;
+  border-radius: 7px;
+  background: #F6F6F6;
+}
+.contact-p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: inline-block;
+ font-size: 11px;
+}
+.contact-span {
+  background: #000000;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 8px 3px;
+  font-size: 16px;
+  font-family: neodisplay-black;
+  letter-spacing: 2px;
+}
+
+label {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: block;
+  font-size: 14px;
+  margin: 20px 0px 5px;
+}
+
+.input_1 {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  width: 80%;
+}
+sup {
+  color: red;
+  font-size: 100%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.13em;
+  }
+.message {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  min-height: 60px;
+  width: 80%;
+}
+
+.input_1:hover, .message:hover {
+  border-color: red;
+}
+.contact_form input[type="text"],  input[type="email"] {
+  box-sizing: border-box;
+  padding:  0px 5px;
+}
+.contact_form textarea[type="text"] {
+  box-sizing: border-box;
+  padding: 2px 5px;
+}
+.button {
+  margin: 15px 0px 0px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  padding: 11px 12px;
+}
+.button:hover {
+  background: black;
+  color: white;
+}
+
+
+
+              /* footer */
+.footer {
+  background: black;
+  padding: 30px 25px;
+  color: white;
+  overflow: hidden;
+}
+.explore {
+  float: left;
+  margin-right: 85px;
+}
+.footer_ul {
+  list-style-type: none;
+  margin-top:  7px
+}
+.footer_ul li {
+  padding-bottom: 4px;
+}
+.footer_ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+            /* social menu */
+.social_menu {
+margin: 32px 0 0 ;
+float: left;
+}
+.social_ul {
+  list-style-type: none;
+}
+.social_menu>.social_ul>li{
+  padding-bottom:4px;
+}
+.social_ul li a{
+ color: white;
+ text-decoration: none;
+}
+
+
+                   /* media */
+                /* Smartphones */
+@media screen and (min-width: 0px) and (max-width: 480px) {}
+          /* Smartphones Portrait */
+@media screen and (min-width: 481px) and (max-width: 767px) {}
+
+                 /* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body{
+    margin: 20px 15px;
+  } 
+  h1{
+    font-size: 100px;
+  }
+  
+ .header-h3 {
+   width: 650px;
+   font-size: 18px;
+   line-height: 1.5em;
+ }
+ 
+           /* projects */
+ .projects_innerdiv {
+   height:505px;
+ }
+  
+ .section-header{
+   font-size: 60px;
+   margin: 50px 0 20px;
+ }
+  
+            /* resume */
+ .resume-h3{
+   font-size: 32px;
+ }
+  .ul1, .ul3{
+    width: 150px;
+    margin: 0 190px 0 95px;
+  }
+  
+  .ul1,.ul2,.ul3,.ul4 {
+    font-size: 22px;
+    line-height: 2.2em; 
+  }
+  
+  
+            /* stats */
+ .stats-p{
+   font-size: 22px;
+   padding: 21px 0 22px 20px;
+   letter-spacing:2px; 
+ }
+ .stats-p1{
+   font-size: 22px;
+   padding: 0 0 5px 0;
+ }
+  
+ .stats-div {
+   height: 65px;
+   margin-bottom: 15px;
+ }
+  
+            /* contact */ 
+ .contact-div {
+   height: 65px;
+ }
+ .contact-p{
+   font-size: 22px;
+   margin: 20px auto 23px;
+ }
+ .contact-span{
+   font-size: 22px;
+   padding: 4px 8px;
+   margin-right: 7px;
+ }
+ label {
+   font-size: 22px;
+   padding: 10px 0 5px 0;
+ }
+ .input_1 {
+   height: 60px;
+ }
+ .message{
+   min-height: 160px;
+   margin-bottom: 15px 
+ }
+ .button{
+   font-size: 26px;
+   padding: 15px 25px ;
+ }
+ a img {
+   width: 45px;
+   height: 45px;
+   margin: 15px 4px 15px 0;
+ }
+}
+
+                /* Laptops */
+@media screen and (min-width: 1024px) and (max-width: 1223px) {}
+                  /* Desktops */
+@media screen and (min-width: 1224px) {}
+                /* Large screens */
+@media screen and (min-width: 1824px) {}
